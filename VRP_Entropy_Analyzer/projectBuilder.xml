@@ -11,7 +11,7 @@
 				</archives>
 			</restrict>
 			<manifest>
-				<attribute name="Main-Class" value="com.vrp.ea.ImageUtils" />
+				<attribute name="Main-Class" value="com.vrp.ea.Main" />
 			</manifest>
 		</jar>
 	</target>
