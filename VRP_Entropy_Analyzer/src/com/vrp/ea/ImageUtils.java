@@ -26,6 +26,8 @@ public class ImageUtils {
 
 	public static void main(String[] args) {
 		
+		//klsdfnkldsjfklsjlkfsdjlkfdsjlks
+		
 		if(args.length < 3){
 			System.out.println("PARAMETERS:");
 			System.out.println("1.- Black and white(1) or Color(2) images.");
