@@ -26,7 +26,7 @@ public class ImageUtils {
 
 	public static void main(String[] args) {
 		
-		//klsdfnkldsjfklsjlkfsdjlkfdsjlks
+		//
 		
 		if(args.length < 3){
 			System.out.println("PARAMETERS:");
