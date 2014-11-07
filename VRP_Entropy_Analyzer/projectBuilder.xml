@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="VRP.makejar" default="makejar" basedir=".">
+	<target name="makejar" description="Create a jar for the VRP project">
+		<jar jarfile="VRP.jar" includes="**" basedir="bin">
+			<restrict>
+				<name name="**/*.class" />
+				<archives>
+					<zips>
+						<fileset dir="lib" includes="**/*.jar" />
+					</zips>
+				</archives>
+			</restrict>
+			<manifest>
+				<attribute name="Main-Class" value="com.vrp.ea.ImageUtils" />
+			</manifest>
+		</jar>
+	</target>
+</project>
